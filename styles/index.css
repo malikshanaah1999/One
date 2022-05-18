@@ -161,3 +161,17 @@ footer {
   text-decoration: none;
   color: hsl(228, 45%, 44%);
 }
+
+/* ---------------------- */
+/* Media queries          */
+/* ---------------------- */
+
+@media (min-width: 719px) {
+  /* more space between buttons on bigger screens */
+  .card {
+    min-width: 25rem;
+  }
+  .card__buttons {
+    justify-content: space-around;
+  }
+}
