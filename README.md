@@ -16,6 +16,7 @@ Users should be able to:
 
 - Count how many people entered in the subway station
 - Save the previous entries
+- Save the total entries
 
 ### Screenshot
 
