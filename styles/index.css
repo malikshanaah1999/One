@@ -1,13 +1,9 @@
-/* ---------------------- */
-/* Fonts                  */
-/* ---------------------- */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
-/* ---------------------- */
-/* Custom properties      */
-/* ---------------------- */
+
 
 :root {
   --clr-light-grey: #e5e5e5;
@@ -16,11 +12,6 @@
   --ff-serif: "Lexend Deca", sans-serif;
   --ff-main: "Big Shoulders Display", cursive;
 }
-
-/* ---------------------- */
-/* Reset                  */
-/* ---------------------- */
-
 *,
 *::before,
 *::after {
@@ -33,9 +24,6 @@ img {
   width: 100%;
 }
 
-/* ---------------------- */
-/* Typography             */
-/* ---------------------- */
 
 html {
   font-size: 21px;
@@ -63,9 +51,6 @@ footer {
   padding: 2em;
 }
 
-/* ---------------------- */
-/* Utility classes        */
-/* ---------------------- */
 
 .container {
   min-height: 100vh;
@@ -82,9 +67,6 @@ footer {
   text-align: center;
 }
 
-/* ---------------------- */
-/* Buttons                */
-/* ---------------------- */
 
 .btn {
   border-radius: 50%;
@@ -127,9 +109,7 @@ footer {
   box-shadow: inset 0px 0px 5px var(--clr-dark-grey);
 }
 
-/* ---------------------- */
-/* Components             */
-/* ---------------------- */
+
 
 .card {
   max-width: 14rem;
@@ -148,7 +128,6 @@ footer {
   margin-bottom: 1em;
 }
 
-/* footer */
 
 .attribution {
   font-family: var(--ff-serif);
@@ -162,12 +141,9 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-/* ---------------------- */
-/* Media queries          */
-/* ---------------------- */
+
 
 @media (min-width: 719px) {
-  /* more space between buttons on bigger screens */
   .card {
     min-width: 25rem;
   }
